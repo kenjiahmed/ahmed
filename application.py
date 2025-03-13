@@ -1,2 +1,2 @@
 bienvenu dans mon projet git
-def resultat(x):\n return 'resultat est :(x)' 
+def division (a,b): return a/b if b=0 else error
