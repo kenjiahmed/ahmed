@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Catalogue{% endblock %}
+
+{% block body %}
+    <div class="d-flex align-items-center justify-content-between mb-4">
+        <h1 class="h3 m-0">Catalogue</h1>
+        <form class="d-flex" method="get">
+            <input class="form-control me-2" type="search" name="q" placeholder="Rechercher un véhicule">
+            <button class="btn btn-outline-primary" type="submit">Rechercher</button>
+        </form>
+    </div>
+
+    <div class="alert alert-info">Aucun véhicule pour le moment.</div>
+{% endblock %}

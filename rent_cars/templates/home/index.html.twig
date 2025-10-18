@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Accueil{% endblock %}
+
+{% block body %}
+    <div class="py-5 text-center">
+        <h1 class="display-5 fw-bold">Location de voitures de luxe</h1>
+        <p class="lead">Découvrez notre catalogue multi-marques et réservez en quelques clics.</p>
+        <a class="btn btn-primary btn-lg" href="{{ path('app_catalogue') }}">Voir le catalogue</a>
+    </div>
+{% endblock %}
